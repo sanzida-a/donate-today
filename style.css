@@ -2,6 +2,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin:0;
 }
+section{
+    margin-bottom: 100px;
+}
 h1{
     font-size: 65px;
     color: white;
@@ -9,26 +12,32 @@ h1{
 h3{
     font-weight: 900px;
     font-size: 40px;
+    margin:0;
+    text-align: center;
 }
 .description{
     font-weight: 400;
     font-size: 18px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.extra-padding{
+    margin-left: 25%;
+    margin-right:25%;
+    text-align: center;
 }
 .top-banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/donation5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 .top-container{
     display:block;
     text-align: center;
-    padding: 10% 25% 10% 25%;
+    padding: 10% 0% 10%;
 }
 .top-container p{
     color: white;
-    margin-top: -7%;
     margin-bottom: 7%;
 }
 .link-button{
@@ -42,10 +51,9 @@ h3{
     
 }
 .donation-container{
-    display:inline-block;
+    display:block;
     text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+
 }
 .input-button input{
     font-size: 30px;
@@ -80,4 +88,49 @@ h3{
 hr{
     position:relative;
     top:-60px;
+}
+
+.card-container{
+    display:flex;
+    margin-left:9%;
+    margin-right: 9%;
+}
+.card{
+    display: block;
+    align-items: center;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 50px 25px 50px 25px;
+}
+.card h4{
+    font-size: 25px;
+    margin-bottom: -4px;
+}
+#card-color1{
+    background-color: rgb(225, 246, 253);
+}
+#card-color2{
+    background-color: rgb(255, 223, 240);
+}
+#card-color3{
+    background-color: antiquewhite;
+}
+.card-img{
+    margin-left: auto;
+    margin-right: auto;
+    height:50px;
+}
+
+
+
+footer{
+    text-align: center;
+    color:aliceblue;
+    display: block;
+    background-color: #18191F;
+    padding-bottom: 7%;
+    padding-top: 1%;
+
 }
