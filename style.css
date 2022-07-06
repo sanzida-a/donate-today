@@ -3,6 +3,8 @@ body{
     margin:0;
 }
 section{
+    display:block;
+    text-align: center;
     margin-bottom: 150px;
 }
 h1{
@@ -26,12 +28,10 @@ h3{
     margin-right:25%;
     text-align: center;
 }
-.top-banner{
+.top-container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/donation5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}
-.top-container{
     display:block;
     text-align: center;
     padding: 10% 0% 10%;
@@ -49,11 +49,6 @@ h3{
     font-weight: 700;
     font-size: 20px;
     
-}
-.donation-container{
-    display:block;
-    text-align: center;
-
 }
 .input-button input{
     font-size: 30px;
