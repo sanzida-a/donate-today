@@ -135,10 +135,6 @@ hr{
     margin-top: 5px;
     margin-bottom: 2px;
 }
-.subscription{
-    display: block;
-    text-align: center;
-}
 .email-container{
     display: inline-flex;
     background-color: bisque;
